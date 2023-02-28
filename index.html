@@ -4,9 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Booki</title>
 </head>
 <body>
+    <header>
+            
+                <img src="images/logo/Booki.png" alt="Logo du site" class="Logo" >
+                <nav>
+                <a href="" target="_blank" class="navbar">Hébergements</a>
+                <a href="" target="_blank" class="navbar"> Activités</a>
+
+            </nav>
+    </header>
+
+    <main>
+        <section>
+            <h3><strong> votre hébergement pour des vacances de rêve</strong></h3>
+            <h4><small>plein centre-ville ou en pleine nature</small> </h4>
+            
+            <form action="/search" method="get">
+                <i class="fas fa-map-marker-alt"></i>
+                <input type="text" id="search" class="search-input" name="q">
+                <button type="submit"><strong>Rechercher</strong></button>
+            </form>
+            <h3 class="Filtre"><strong>Filtres</strong></h3>
+            <div class="sort">
+            <span><i class="fa-regular fa-money-bill-1"></i><strong>Economique</strong></span>
+            <span><i class="fa-solid fa-person"></i></i><strong>Economique</strong></span>
+            <span><i class="fas fa-dollar-sign"></i><strong>Economique</strong></span>
+            <span><i class="fas fa-dollar-sign"></i><strong>Economique</strong></span>
+            </div>
+        </section>
+        <div class="information">
+            <i class="fas fa-info-circle"></i>
+            <h4 class="titre-inf"><small>plein centre-ville ou en pleine nature</small></h4>
+        </div>
+        <section class="img-rating">
+            <h3><strong>Hébergements à Marseille</strong></h3>
+            <div class="rating">
+                <div class="grid-item"><img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt=""></div>
+                <div class="grid-item"><img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt=""></div>
+                <div class="grid-item"><img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt=""></div>
+                <div class="grid-item"><img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt=""></div>
+                <div class="grid-item"><img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt=""></div>
+                <div class="grid-item"><img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt=""></div>
+              </div>
+              <h3><strong>Afficher Plus</strong></h3>
+        </section>
+    </main>
     
 </body>
 </html>
