@@ -15,7 +15,7 @@ nav{
     gap: 100px;
     margin-right: 80px;
     font-family: 'Manrope', sans-serif;
-    margin-top: -24px;
+    margin-top: -60px;
     
 
     
@@ -24,14 +24,15 @@ nav{
 .navbar{
     color: black;
     text-decoration: none;
+    border-top: 3px solid white;
+    padding-top: 40px;
     
 }
 
 .navbar:hover{
     border-top: 3px solid blue;
     color: blue;
-    border-radius: 4px;
-    padding-top: 20px;
+    border-radius: 1px;
     
 }
 
@@ -45,6 +46,7 @@ h4{
     font-family: 'Manrope', sans-serif;
     margin-left: 48px;
 }
+
 form{
     margin-left: 50px;
     display: flex;
@@ -71,7 +73,7 @@ border-width: 15px;
 button{
     font-family: 'Manrope', sans-serif;
     color: white;
-    background-color: blue;
+    background-color: #6495ED;
     border-radius: 0 12px 12px 0;
     width: 150px;
     height: 60px;
@@ -87,7 +89,7 @@ button{
   gap: 25px;
 
 }
-span{
+.fill{
     font-family: 'Manrope', sans-serif;
     border: 1px solid #D3D3D3;
     padding: 15px;
@@ -96,7 +98,7 @@ span{
     gap: 15px;
 }
 
-span:hover{
+.fill:hover{
     background-color: lightblue;
 }
 
@@ -155,6 +157,59 @@ span:hover{
     padding-left: 5px;
     margin-right: 500px;
     padding-right: 10px;
-    padding-left: 100px;
+    padding-left: 10px;
     margin-top: -20px
   }
+
+  .card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    height: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Styles for the image */
+  .card img {
+    margin-top: -5px;
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 50%;
+  }
+  
+  /* Styles for the heading */
+  .card h4 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -10px;
+    margin-left: 10px;
+
+  }
+  
+  /* Styles for the description */
+  .card p {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -10px;
+    margin-left: 10px;
+  }
+
+
+  .stars{
+    font-size: 18px;
+    color:blue;
+  }
+
+  .star {
+    display: inline-block;
+    margin-right: 5px; 
+  }
+  
+  
+  
+ 
