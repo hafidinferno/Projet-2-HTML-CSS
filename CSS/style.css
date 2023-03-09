@@ -20,6 +20,9 @@ nav{
 
     
 }
+a{
+  color: black;
+  text-decoration: none;}
 
 .navbar{
     color: black;
@@ -37,7 +40,7 @@ nav{
 }
 
 h3{
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin-left: 48px;
     margin-top: 60px;
 }
@@ -54,15 +57,21 @@ form{
 }
 
 .fa-map-marker-alt{
-background-color: #D3D3D3;
-border: 1px solid #D3D3D3;
-border-radius: 12px 0 0 12px;
-font-size: 1.5em;
-border-width: 15px;
+  display: flex;
+  justify-content: center;
+  width: 20px;
+  padding-top: 5px;
+  padding-left: 5px;
+  background-color: #D3D3D3;
+  border: 1px solid #D3D3D3;
+  border-radius: 20px 0 0 20px;
+  font-size: 1.2em;
+  border-width: 15px;
 }
 
 .search-input{
-    font-size: 1em;
+    width: 150px;
+    height: 38px;
     border: 1px solid #D3D3D3;
     padding: 8px 16px;
 }
@@ -72,10 +81,10 @@ border-width: 15px;
 button{
     font-family: 'Manrope', sans-serif;
     color: white;
-    background-color: #6495ED;
-    border-radius: 0 12px 12px 0;
+    background-color: #0065FC;
+    border-radius: 0 20px 20px 0;
     width: 150px;
-    height: 60px;
+    height: 55px;
 
 }
 
@@ -142,44 +151,34 @@ button{
     margin-top: 30px;
     margin-left:-1.2px;
     margin-bottom: 50px;
+    font-family: 'Manrope', sans-serif;
 }
 
 .annonce{
   display: flex;
   justify-content:space-between;
 }
-
+.heber{
+  margin-top: -18px;
+}
 
 .rating{
     display: grid;
     grid-column-gap: 1px;
     
     grid-template-columns: repeat(3, 1fr); 
-    grid-gap: 5px;
 }
 
-.grid-item {
-    display: block;
-  width: 100%;
- 
-  padding: 10px;
-  margin-bottom: 20px;
-    
-  }
   
-  .grid-item img {
-    width: 30%;
-    height: auto;
-  }
+
 
   .img-rating{
-    width: 1100px;
-    height: 750px;
+    width: 1000px;
+    height: 670px;
     background-color: #D3D3D3;
     border: 1px solid #D3D3D3;
     border-radius: 15px;
-    padding-right: 5px;
-    padding-left: 4px;
+    padding: 5px;
     margin-top: -20px;
     margin-left: 30px;
   }
@@ -189,29 +188,29 @@ button{
     border: 1px solid #ddd;
     border-radius: 20px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    width: 245px;
+    width: 280px;
     height: 200px;
     margin: 20px auto;
-    padding: 10px;
+    padding: 8px;
     text-align: center;
   }
   
   /* Styles for the image */
   .card img {
-    margin-top: -5px;
+    margin-top: -2px;
     border-radius: 20px 20px 0 0;
     width: 100%;
     margin-bottom: 20px;
-    height: 60%;
+    height: 65%;
   }
   
   /* Styles for the heading */
   .card h4 {
     display: flex;
     justify-content: flex-start;
-    margin-top: -10px;
+    margin-top: -15px;
     margin-left: 10px;
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Raleway', sans-serif;
 
   }
   
@@ -219,8 +218,12 @@ button{
   .card p {
     display: flex;
     justify-content: flex-start;
-    margin-top: -10px;
+    margin-top: -15px;
     margin-left: 10px;
+  }
+  .fa-euro-sign{
+    margin-top: 3px;
+    font-size: 0.8em;
   }
 
 
@@ -234,15 +237,23 @@ button{
     margin-right: 5px; 
   }
 
+  .affichage{
+    margin-top: 1%;
+  }
+
+
+
   .popular{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     justify-content: start;
-    width: 450px;
+    width: 400px;
+    height: 620px;
     background-color: #D3D3D3;
     border: 1px solid #D3D3D3;
     border-radius: 20px;
+    padding: 30px;
     padding-left: 5px;
     padding-right: 10px;
     padding-left: 10px;
@@ -250,10 +261,16 @@ button{
     margin-right: 20px;
   }
   .chart{
+    margin-top: -50px;
     font-family: 'Manrope', sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+  .column{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
   }
 
 
@@ -268,10 +285,10 @@ button{
     border: 1px solid #ddd;
     border-radius: 20px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    width: 400px;
-    height: 150px;
+    width: 350px;
+    height: 120px;
     margin: 20px auto;
-    padding: 10px;
+    padding: 15px;
   }
 
 
@@ -282,18 +299,17 @@ button{
     margin-left: -5px;
     margin-top: -5px;
     width: 40%;
-    height: 105%;
+    height: 110%;
   }
   
 
   .cardP h4 {
+    font-family: 'Raleway', sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-left: 140px;
-    margin-top: -150px;
-    margin-left: 165px;
-    font-family: 'Manrope', sans-serif;
+    margin-top: -130px;
+    margin-left: 145px;
 
   }
   
@@ -301,12 +317,19 @@ button{
     display: flex;
     justify-content: center;
     margin-top: -10px;
-    margin-left: 60px;
+    margin-left: 70px;
   }
 
   .starsP{
-    margin-left: 170px;
-    margin-top: 70px;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-size: 18px;
+    color:blue;
+  }
+
+  .starsL{
+    margin-left: 150px;
+    margin-top: 30px;
     font-size: 18px;
     color:blue;
   }
@@ -317,7 +340,10 @@ button{
     flex-direction: row;
     justify-content: space-around;
     margin-left: -20px;
+    margin-right:-20px ;
+    padding: 50px;
     gap: -15px;
+    margin-top: -20px;
   }
 
   .cardS{
@@ -344,14 +370,13 @@ button{
     display: flex;
     justify-content: flex-start;
     margin-left: 7%;
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Raleway', sans-serif;
   }
 
 
   footer{
     background-color: #D3D3D3;
     background-size: contain;
-    margin-top:10% ;
     display: flex;
     justify-content: flex-start;
     justify-content: space-around;
@@ -368,7 +393,7 @@ button{
     color: black;
     font-weight: bold;
     margin-left: -80px;
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Raleway', sans-serif;
       
   }
 
@@ -377,6 +402,8 @@ button{
     font-family: 'Manrope', sans-serif;
   
   }
+
+ 
   
   
   
