@@ -62,8 +62,8 @@ form{
   width: 20px;
   padding-top: 5px;
   padding-left: 5px;
-  background-color: #D3D3D3;
-  border: 1px solid #D3D3D3;
+  background-color: #F2F2F2;
+  border: 1px solid #F2F2F2;
   border-radius: 20px 0 0 20px;
   font-size: 1.2em;
   border-width: 15px;
@@ -72,18 +72,19 @@ form{
 .search-input{
     width: 150px;
     height: 38px;
-    border: 1px solid #D3D3D3;
+    border: 1px solid #F2F2F2;
     padding: 8px 16px;
 }
 
 
 
 button{
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: medium;
     color: white;
     background-color: #0065FC;
     border-radius: 0 20px 20px 0;
-    width: 150px;
+    width: 130px;
     height: 55px;
 
 }
@@ -98,11 +99,12 @@ button{
 
 }
 .fill{
-    font-family: 'Manrope', sans-serif;
-    border: 1px solid #D3D3D3;
+    font-family: 'Raleway', sans-serif;
+    border-width: 30px;
+    border: 2px solid #D3D3D3;
     padding: 15px;
     margin: 12px;
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 30px 30px 30px 30px;
     gap: 15px;
 }
 
@@ -160,6 +162,7 @@ button{
 }
 .heber{
   margin-top: -18px;
+  font-size: larger;
 }
 
 .rating{
@@ -175,8 +178,8 @@ button{
   .img-rating{
     width: 1000px;
     height: 670px;
-    background-color: #D3D3D3;
-    border: 1px solid #D3D3D3;
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
     border-radius: 15px;
     padding: 5px;
     margin-top: -20px;
@@ -250,8 +253,8 @@ button{
     justify-content: start;
     width: 400px;
     height: 620px;
-    background-color: #D3D3D3;
-    border: 1px solid #D3D3D3;
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
     border-radius: 20px;
     padding: 30px;
     padding-left: 5px;
@@ -261,6 +264,7 @@ button{
     margin-right: 20px;
   }
   .chart{
+    font-size: larger;
     margin-top: -50px;
     font-family: 'Manrope', sans-serif;
     display: flex;
@@ -334,6 +338,11 @@ button{
     color:blue;
   }
 
+  .Act{
+    font-size: larger;
+    margin-left: 20px;
+  }
+
 
   .Activite{
     display: flex;
@@ -342,7 +351,6 @@ button{
     margin-left: -20px;
     margin-right:-20px ;
     padding: 50px;
-    gap: -15px;
     margin-top: -20px;
   }
 
@@ -375,7 +383,7 @@ button{
 
 
   footer{
-    background-color: #D3D3D3;
+    background-color: #F2F2F2;
     background-size: contain;
     display: flex;
     justify-content: flex-start;
